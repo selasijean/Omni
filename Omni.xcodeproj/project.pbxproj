@@ -7,13 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		356BCB841D571942007CBF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BCB831D571942007CBF2A /* AppDelegate.swift */; };
-		356BCB861D571942007CBF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BCB851D571942007CBF2A /* ViewController.swift */; };
-		356BCB891D571942007CBF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356BCB871D571942007CBF2A /* Main.storyboard */; };
-		356BCB8B1D571942007CBF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356BCB8A1D571942007CBF2A /* Assets.xcassets */; };
-		356BCB8E1D571942007CBF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356BCB8C1D571942007CBF2A /* LaunchScreen.storyboard */; };
 		356BCB991D571942007CBF2A /* OmniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BCB981D571942007CBF2A /* OmniTests.swift */; };
 		356BCBA41D571942007CBF2A /* OmniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BCBA31D571942007CBF2A /* OmniUITests.swift */; };
+		358BFB761D59795900EA5722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356BCB871D571942007CBF2A /* Main.storyboard */; };
+		358BFB781D59797000EA5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EC58A41D5959D600246544 /* Assets.xcassets */; };
+		358BFB791D59799600EA5722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356BCB8C1D571942007CBF2A /* LaunchScreen.storyboard */; };
+		35EC58611D594F4B00246544 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC582E1D594F4B00246544 /* Address.swift */; };
+		35EC58621D594F4B00246544 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC582F1D594F4B00246544 /* AddressViewController.swift */; };
+		35EC58641D594F4B00246544 /* AppPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58311D594F4B00246544 /* AppPolicyViewController.swift */; };
+		35EC58661D594F4B00246544 /* CircleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58331D594F4B00246544 /* CircleLoadingView.swift */; };
+		35EC58671D594F4B00246544 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58341D594F4B00246544 /* ContactInfo.swift */; };
+		35EC58681D594F4B00246544 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58351D594F4B00246544 /* DeleteButton.swift */; };
+		35EC58691D594F4B00246544 /* EmergencyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58361D594F4B00246544 /* EmergencyContactsViewController.swift */; };
+		35EC586A1D594F4B00246544 /* EmergencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58371D594F4B00246544 /* EmergencyInfo.swift */; };
+		35EC586B1D594F4B00246544 /* EmergencyInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58381D594F4B00246544 /* EmergencyInfoCell.swift */; };
+		35EC586C1D594F4B00246544 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58391D594F4B00246544 /* EmergencyViewController.swift */; };
+		35EC586D1D594F4B00246544 /* HomeContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC583A1D594F4B00246544 /* HomeContentCell.swift */; };
+		35EC586E1D594F4B00246544 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC583B1D594F4B00246544 /* HomeViewController.swift */; };
+		35EC586F1D594F4B00246544 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC583C1D594F4B00246544 /* House.swift */; };
+		35EC58721D594F4B00246544 /* JoinNeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC583F1D594F4B00246544 /* JoinNeighborhoodViewController.swift */; };
+		35EC58731D594F4B00246544 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58401D594F4B00246544 /* ListCell.swift */; };
+		35EC58741D594F4B00246544 /* ListOfMedicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58411D594F4B00246544 /* ListOfMedicsViewController.swift */; };
+		35EC58751D594F4B00246544 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58421D594F4B00246544 /* LoadingViewController.swift */; };
+		35EC58761D594F4B00246544 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58431D594F4B00246544 /* LoginViewController.swift */; };
+		35EC58771D594F4B00246544 /* MedicalBadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58441D594F4B00246544 /* MedicalBadgeCell.swift */; };
+		35EC58781D594F4B00246544 /* MedicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58451D594F4B00246544 /* MedicsViewController.swift */; };
+		35EC58791D594F4B00246544 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58461D594F4B00246544 /* MenuViewController.swift */; };
+		35EC587A1D594F4B00246544 /* Neighbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58471D594F4B00246544 /* Neighbor.swift */; };
+		35EC587B1D594F4B00246544 /* Neighborhood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58481D594F4B00246544 /* Neighborhood.swift */; };
+		35EC587C1D594F4B00246544 /* NeighborhoodRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58491D594F4B00246544 /* NeighborhoodRegion.swift */; };
+		35EC587D1D594F4B00246544 /* NeighborhoodSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584A1D594F4B00246544 /* NeighborhoodSettingsViewController.swift */; };
+		35EC587E1D594F4B00246544 /* NeighborsFacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584B1D594F4B00246544 /* NeighborsFacesCell.swift */; };
+		35EC587F1D594F4B00246544 /* NeighborsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584C1D594F4B00246544 /* NeighborsViewController.swift */; };
+		35EC58801D594F4B00246544 /* NetworkConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584D1D594F4B00246544 /* NetworkConnectionError.swift */; };
+		35EC58811D594F4B00246544 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584E1D594F4B00246544 /* Person.swift */; };
+		35EC58821D594F4B00246544 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC584F1D594F4B00246544 /* PersonCell.swift */; };
+		35EC58831D594F4B00246544 /* PoliceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58501D594F4B00246544 /* PoliceButton.swift */; };
+		35EC58841D594F4B00246544 /* PostSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58511D594F4B00246544 /* PostSignUpViewController.swift */; };
+		35EC58851D594F4B00246544 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58521D594F4B00246544 /* ProfileImage.swift */; };
+		35EC58861D594F4B00246544 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58531D594F4B00246544 /* ProfileViewController.swift */; };
+		35EC58871D594F4B00246544 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58541D594F4B00246544 /* Reachability.swift */; };
+		35EC58881D594F4B00246544 /* SafeNotSafeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58551D594F4B00246544 /* SafeNotSafeMenu.swift */; };
+		35EC58891D594F4B00246544 /* SafeNotSafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58561D594F4B00246544 /* SafeNotSafeViewController.swift */; };
+		35EC588A1D594F4B00246544 /* SearchNeighborsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58571D594F4B00246544 /* SearchNeighborsViewController.swift */; };
+		35EC588B1D594F4B00246544 /* SelectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58581D594F4B00246544 /* SelectListViewController.swift */; };
+		35EC588C1D594F4B00246544 /* SendTextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58591D594F4B00246544 /* SendTextsViewController.swift */; };
+		35EC588D1D594F4B00246544 /* SetNeighborhoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585A1D594F4B00246544 /* SetNeighborhoodViewController.swift */; };
+		35EC588E1D594F4B00246544 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585B1D594F4B00246544 /* SharedFunctions.swift */; };
+		35EC588F1D594F4B00246544 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585C1D594F4B00246544 /* SignUpViewController.swift */; };
+		35EC58901D594F4B00246544 /* UIButton+CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585D1D594F4B00246544 /* UIButton+CustomView.swift */; };
+		35EC58911D594F4B00246544 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585E1D594F4B00246544 /* UIColor+CustomColor.swift */; };
+		35EC58921D594F4B00246544 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC585F1D594F4B00246544 /* User.swift */; };
+		35EC58931D594F4B00246544 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58601D594F4B00246544 /* WelcomeViewController.swift */; };
+		35EC58A31D59584100246544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EC58A21D59584100246544 /* AppDelegate.swift */; };
+		9E4CE76E194C2E0461DA0154 /* Pods_Omni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8B2DA7AC06A8AF08216D1D /* Pods_Omni.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +81,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268DB200B1238D6938D7DDA8 /* Pods-Omni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omni/Pods-Omni.debug.xcconfig"; sourceTree = "<group>"; };
 		356BCB801D571942007CBF2A /* Omni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omni.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356BCB831D571942007CBF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		356BCB851D571942007CBF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		356BCB881D571942007CBF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		356BCB8A1D571942007CBF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356BCB8D1D571942007CBF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		356BCB8F1D571942007CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356BCB941D571942007CBF2A /* OmniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356BCB981D571942007CBF2A /* OmniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniTests.swift; sourceTree = "<group>"; };
 		356BCB9A1D571942007CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356BCB9F1D571942007CBF2A /* OmniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356BCBA31D571942007CBF2A /* OmniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmniUITests.swift; sourceTree = "<group>"; };
 		356BCBA51D571942007CBF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EC582E1D594F4B00246544 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = omni/Address.swift; sourceTree = "<group>"; };
+		35EC582F1D594F4B00246544 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressViewController.swift; path = omni/AddressViewController.swift; sourceTree = "<group>"; };
+		35EC58311D594F4B00246544 /* AppPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppPolicyViewController.swift; path = omni/AppPolicyViewController.swift; sourceTree = "<group>"; };
+		35EC58331D594F4B00246544 /* CircleLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleLoadingView.swift; path = omni/CircleLoadingView.swift; sourceTree = "<group>"; };
+		35EC58341D594F4B00246544 /* ContactInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactInfo.swift; path = omni/ContactInfo.swift; sourceTree = "<group>"; };
+		35EC58351D594F4B00246544 /* DeleteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteButton.swift; path = omni/DeleteButton.swift; sourceTree = "<group>"; };
+		35EC58361D594F4B00246544 /* EmergencyContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyContactsViewController.swift; path = omni/EmergencyContactsViewController.swift; sourceTree = "<group>"; };
+		35EC58371D594F4B00246544 /* EmergencyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyInfo.swift; path = omni/EmergencyInfo.swift; sourceTree = "<group>"; };
+		35EC58381D594F4B00246544 /* EmergencyInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyInfoCell.swift; path = omni/EmergencyInfoCell.swift; sourceTree = "<group>"; };
+		35EC58391D594F4B00246544 /* EmergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyViewController.swift; path = omni/EmergencyViewController.swift; sourceTree = "<group>"; };
+		35EC583A1D594F4B00246544 /* HomeContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeContentCell.swift; path = omni/HomeContentCell.swift; sourceTree = "<group>"; };
+		35EC583B1D594F4B00246544 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = omni/HomeViewController.swift; sourceTree = "<group>"; };
+		35EC583C1D594F4B00246544 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = House.swift; path = omni/House.swift; sourceTree = "<group>"; };
+		35EC583F1D594F4B00246544 /* JoinNeighborhoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoinNeighborhoodViewController.swift; path = omni/JoinNeighborhoodViewController.swift; sourceTree = "<group>"; };
+		35EC58401D594F4B00246544 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = omni/ListCell.swift; sourceTree = "<group>"; };
+		35EC58411D594F4B00246544 /* ListOfMedicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListOfMedicsViewController.swift; path = omni/ListOfMedicsViewController.swift; sourceTree = "<group>"; };
+		35EC58421D594F4B00246544 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = omni/LoadingViewController.swift; sourceTree = "<group>"; };
+		35EC58431D594F4B00246544 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = omni/LoginViewController.swift; sourceTree = "<group>"; };
+		35EC58441D594F4B00246544 /* MedicalBadgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicalBadgeCell.swift; path = omni/MedicalBadgeCell.swift; sourceTree = "<group>"; };
+		35EC58451D594F4B00246544 /* MedicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicsViewController.swift; path = omni/MedicsViewController.swift; sourceTree = "<group>"; };
+		35EC58461D594F4B00246544 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = omni/MenuViewController.swift; sourceTree = "<group>"; };
+		35EC58471D594F4B00246544 /* Neighbor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Neighbor.swift; path = omni/Neighbor.swift; sourceTree = "<group>"; };
+		35EC58481D594F4B00246544 /* Neighborhood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Neighborhood.swift; path = omni/Neighborhood.swift; sourceTree = "<group>"; };
+		35EC58491D594F4B00246544 /* NeighborhoodRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeighborhoodRegion.swift; path = omni/NeighborhoodRegion.swift; sourceTree = "<group>"; };
+		35EC584A1D594F4B00246544 /* NeighborhoodSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeighborhoodSettingsViewController.swift; path = omni/NeighborhoodSettingsViewController.swift; sourceTree = "<group>"; };
+		35EC584B1D594F4B00246544 /* NeighborsFacesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeighborsFacesCell.swift; path = omni/NeighborsFacesCell.swift; sourceTree = "<group>"; };
+		35EC584C1D594F4B00246544 /* NeighborsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeighborsViewController.swift; path = omni/NeighborsViewController.swift; sourceTree = "<group>"; };
+		35EC584D1D594F4B00246544 /* NetworkConnectionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkConnectionError.swift; path = omni/NetworkConnectionError.swift; sourceTree = "<group>"; };
+		35EC584E1D594F4B00246544 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = omni/Person.swift; sourceTree = "<group>"; };
+		35EC584F1D594F4B00246544 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonCell.swift; path = omni/PersonCell.swift; sourceTree = "<group>"; };
+		35EC58501D594F4B00246544 /* PoliceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoliceButton.swift; path = omni/PoliceButton.swift; sourceTree = "<group>"; };
+		35EC58511D594F4B00246544 /* PostSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostSignUpViewController.swift; path = omni/PostSignUpViewController.swift; sourceTree = "<group>"; };
+		35EC58521D594F4B00246544 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileImage.swift; path = omni/ProfileImage.swift; sourceTree = "<group>"; };
+		35EC58531D594F4B00246544 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = omni/ProfileViewController.swift; sourceTree = "<group>"; };
+		35EC58541D594F4B00246544 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = omni/Reachability.swift; sourceTree = "<group>"; };
+		35EC58551D594F4B00246544 /* SafeNotSafeMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafeNotSafeMenu.swift; path = omni/SafeNotSafeMenu.swift; sourceTree = "<group>"; };
+		35EC58561D594F4B00246544 /* SafeNotSafeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafeNotSafeViewController.swift; path = omni/SafeNotSafeViewController.swift; sourceTree = "<group>"; };
+		35EC58571D594F4B00246544 /* SearchNeighborsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchNeighborsViewController.swift; path = omni/SearchNeighborsViewController.swift; sourceTree = "<group>"; };
+		35EC58581D594F4B00246544 /* SelectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectListViewController.swift; path = omni/SelectListViewController.swift; sourceTree = "<group>"; };
+		35EC58591D594F4B00246544 /* SendTextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendTextsViewController.swift; path = omni/SendTextsViewController.swift; sourceTree = "<group>"; };
+		35EC585A1D594F4B00246544 /* SetNeighborhoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetNeighborhoodViewController.swift; path = omni/SetNeighborhoodViewController.swift; sourceTree = "<group>"; };
+		35EC585B1D594F4B00246544 /* SharedFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedFunctions.swift; path = omni/SharedFunctions.swift; sourceTree = "<group>"; };
+		35EC585C1D594F4B00246544 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = omni/SignUpViewController.swift; sourceTree = "<group>"; };
+		35EC585D1D594F4B00246544 /* UIButton+CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+CustomView.swift"; path = "omni/UIButton+CustomView.swift"; sourceTree = "<group>"; };
+		35EC585E1D594F4B00246544 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+CustomColor.swift"; path = "omni/UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		35EC585F1D594F4B00246544 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = omni/User.swift; sourceTree = "<group>"; };
+		35EC58601D594F4B00246544 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = omni/WelcomeViewController.swift; sourceTree = "<group>"; };
+		35EC58A01D59583500246544 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35EC58A21D59584100246544 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35EC58A41D5959D600246544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8B2DA7AC06A8AF08216D1D /* Pods_Omni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9750A2A2CB7CB547865047 /* Pods-Omni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omni.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omni/Pods-Omni.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4CE76E194C2E0461DA0154 /* Pods_Omni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +178,8 @@
 				356BCB971D571942007CBF2A /* OmniTests */,
 				356BCBA21D571942007CBF2A /* OmniUITests */,
 				356BCB811D571942007CBF2A /* Products */,
+				6601ED72FFAE01993365AFBC /* Pods */,
+				AFA6074CF9BDCD01DF5C9081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +196,15 @@
 		356BCB821D571942007CBF2A /* Omni */ = {
 			isa = PBXGroup;
 			children = (
-				356BCB831D571942007CBF2A /* AppDelegate.swift */,
-				356BCB851D571942007CBF2A /* ViewController.swift */,
+				35EC58981D59512700246544 /* Extensions */,
+				35EC58971D5950C000246544 /* Custom Buttons */,
+				35EC58961D59505000246544 /* TableView and CollectionView Cells */,
+				35EC58951D59501600246544 /* View Controllers */,
+				35EC58941D59500F00246544 /* Models */,
 				356BCB871D571942007CBF2A /* Main.storyboard */,
-				356BCB8A1D571942007CBF2A /* Assets.xcassets */,
+				35EC58A41D5959D600246544 /* Assets.xcassets */,
 				356BCB8C1D571942007CBF2A /* LaunchScreen.storyboard */,
-				356BCB8F1D571942007CBF2A /* Info.plist */,
+				35EC58A01D59583500246544 /* Info.plist */,
 			);
 			path = Omni;
 			sourceTree = "<group>";
@@ -125,6 +227,146 @@
 			path = OmniUITests;
 			sourceTree = "<group>";
 		};
+		35EC58941D59500F00246544 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58A21D59584100246544 /* AppDelegate.swift */,
+				35EC582E1D594F4B00246544 /* Address.swift */,
+				35EC58341D594F4B00246544 /* ContactInfo.swift */,
+				35EC583C1D594F4B00246544 /* House.swift */,
+				35EC58471D594F4B00246544 /* Neighbor.swift */,
+				35EC58481D594F4B00246544 /* Neighborhood.swift */,
+				35EC584E1D594F4B00246544 /* Person.swift */,
+				35EC585F1D594F4B00246544 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		35EC58951D59501600246544 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35EC589C1D5952DF00246544 /* Emergency VCs */,
+				35EC589B1D5952AA00246544 /* Onboarding */,
+				35EC589A1D59525D00246544 /* Tab Bar VCs */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		35EC58961D59505000246544 /* TableView and CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58381D594F4B00246544 /* EmergencyInfoCell.swift */,
+				35EC583A1D594F4B00246544 /* HomeContentCell.swift */,
+				35EC58401D594F4B00246544 /* ListCell.swift */,
+				35EC58441D594F4B00246544 /* MedicalBadgeCell.swift */,
+				35EC584B1D594F4B00246544 /* NeighborsFacesCell.swift */,
+				35EC584F1D594F4B00246544 /* PersonCell.swift */,
+			);
+			name = "TableView and CollectionView Cells";
+			sourceTree = "<group>";
+		};
+		35EC58971D5950C000246544 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58351D594F4B00246544 /* DeleteButton.swift */,
+				35EC58501D594F4B00246544 /* PoliceButton.swift */,
+				35EC585D1D594F4B00246544 /* UIButton+CustomView.swift */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		35EC58981D59512700246544 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35EC584D1D594F4B00246544 /* NetworkConnectionError.swift */,
+				35EC58371D594F4B00246544 /* EmergencyInfo.swift */,
+				35EC58331D594F4B00246544 /* CircleLoadingView.swift */,
+				35EC58521D594F4B00246544 /* ProfileImage.swift */,
+				35EC58491D594F4B00246544 /* NeighborhoodRegion.swift */,
+				35EC585E1D594F4B00246544 /* UIColor+CustomColor.swift */,
+				35EC585B1D594F4B00246544 /* SharedFunctions.swift */,
+				35EC58541D594F4B00246544 /* Reachability.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		35EC58991D59518400246544 /* Join Neighborhood VCs */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58581D594F4B00246544 /* SelectListViewController.swift */,
+				35EC582F1D594F4B00246544 /* AddressViewController.swift */,
+				35EC583F1D594F4B00246544 /* JoinNeighborhoodViewController.swift */,
+				35EC585A1D594F4B00246544 /* SetNeighborhoodViewController.swift */,
+				35EC584A1D594F4B00246544 /* NeighborhoodSettingsViewController.swift */,
+			);
+			name = "Join Neighborhood VCs";
+			sourceTree = "<group>";
+		};
+		35EC589A1D59525D00246544 /* Tab Bar VCs */ = {
+			isa = PBXGroup;
+			children = (
+				35EC589D1D59532A00246544 /* Home */,
+				35EC58391D594F4B00246544 /* EmergencyViewController.swift */,
+				35EC58531D594F4B00246544 /* ProfileViewController.swift */,
+			);
+			name = "Tab Bar VCs";
+			sourceTree = "<group>";
+		};
+		35EC589B1D5952AA00246544 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				35EC585C1D594F4B00246544 /* SignUpViewController.swift */,
+				35EC58311D594F4B00246544 /* AppPolicyViewController.swift */,
+				35EC58431D594F4B00246544 /* LoginViewController.swift */,
+				35EC58511D594F4B00246544 /* PostSignUpViewController.swift */,
+				35EC58601D594F4B00246544 /* WelcomeViewController.swift */,
+				35EC58991D59518400246544 /* Join Neighborhood VCs */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		35EC589C1D5952DF00246544 /* Emergency VCs */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58361D594F4B00246544 /* EmergencyContactsViewController.swift */,
+				35EC58551D594F4B00246544 /* SafeNotSafeMenu.swift */,
+				35EC58591D594F4B00246544 /* SendTextsViewController.swift */,
+				35EC58561D594F4B00246544 /* SafeNotSafeViewController.swift */,
+			);
+			name = "Emergency VCs";
+			sourceTree = "<group>";
+		};
+		35EC589D1D59532A00246544 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				35EC58421D594F4B00246544 /* LoadingViewController.swift */,
+				35EC583B1D594F4B00246544 /* HomeViewController.swift */,
+				35EC58411D594F4B00246544 /* ListOfMedicsViewController.swift */,
+				35EC58451D594F4B00246544 /* MedicsViewController.swift */,
+				35EC58461D594F4B00246544 /* MenuViewController.swift */,
+				35EC58571D594F4B00246544 /* SearchNeighborsViewController.swift */,
+				35EC584C1D594F4B00246544 /* NeighborsViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		6601ED72FFAE01993365AFBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				268DB200B1238D6938D7DDA8 /* Pods-Omni.debug.xcconfig */,
+				BD9750A2A2CB7CB547865047 /* Pods-Omni.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFA6074CF9BDCD01DF5C9081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B2DA7AC06A8AF08216D1D /* Pods_Omni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +374,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356BCBA81D571942007CBF2A /* Build configuration list for PBXNativeTarget "Omni" */;
 			buildPhases = (
+				A6198B928BA06CFB81D72FAC /* [CP] Check Pods Manifest.lock */,
 				356BCB7C1D571942007CBF2A /* Sources */,
 				356BCB7D1D571942007CBF2A /* Frameworks */,
 				356BCB7E1D571942007CBF2A /* Resources */,
+				CCCFAB9ABB09ED35419EC49E /* [CP] Embed Pods Frameworks */,
+				AEEB344D89E935CC150855F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +477,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356BCB8E1D571942007CBF2A /* LaunchScreen.storyboard in Resources */,
-				356BCB8B1D571942007CBF2A /* Assets.xcassets in Resources */,
-				356BCB891D571942007CBF2A /* Main.storyboard in Resources */,
+				358BFB791D59799600EA5722 /* LaunchScreen.storyboard in Resources */,
+				358BFB781D59797000EA5722 /* Assets.xcassets in Resources */,
+				358BFB761D59795900EA5722 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +499,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6198B928BA06CFB81D72FAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEB344D89E935CC150855F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omni/Pods-Omni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCFAB9ABB09ED35419EC49E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Omni/Pods-Omni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		356BCB7C1D571942007CBF2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				356BCB861D571942007CBF2A /* ViewController.swift in Sources */,
-				356BCB841D571942007CBF2A /* AppDelegate.swift in Sources */,
+				35EC58831D594F4B00246544 /* PoliceButton.swift in Sources */,
+				35EC586B1D594F4B00246544 /* EmergencyInfoCell.swift in Sources */,
+				35EC58821D594F4B00246544 /* PersonCell.swift in Sources */,
+				35EC58911D594F4B00246544 /* UIColor+CustomColor.swift in Sources */,
+				35EC58891D594F4B00246544 /* SafeNotSafeViewController.swift in Sources */,
+				35EC587F1D594F4B00246544 /* NeighborsViewController.swift in Sources */,
+				35EC586D1D594F4B00246544 /* HomeContentCell.swift in Sources */,
+				35EC58861D594F4B00246544 /* ProfileViewController.swift in Sources */,
+				35EC587D1D594F4B00246544 /* NeighborhoodSettingsViewController.swift in Sources */,
+				35EC58881D594F4B00246544 /* SafeNotSafeMenu.swift in Sources */,
+				35EC586C1D594F4B00246544 /* EmergencyViewController.swift in Sources */,
+				35EC58621D594F4B00246544 /* AddressViewController.swift in Sources */,
+				35EC58781D594F4B00246544 /* MedicsViewController.swift in Sources */,
+				35EC586E1D594F4B00246544 /* HomeViewController.swift in Sources */,
+				35EC587A1D594F4B00246544 /* Neighbor.swift in Sources */,
+				35EC58721D594F4B00246544 /* JoinNeighborhoodViewController.swift in Sources */,
+				35EC58811D594F4B00246544 /* Person.swift in Sources */,
+				35EC58871D594F4B00246544 /* Reachability.swift in Sources */,
+				35EC58611D594F4B00246544 /* Address.swift in Sources */,
+				35EC58921D594F4B00246544 /* User.swift in Sources */,
+				35EC588D1D594F4B00246544 /* SetNeighborhoodViewController.swift in Sources */,
+				35EC58761D594F4B00246544 /* LoginViewController.swift in Sources */,
+				35EC58661D594F4B00246544 /* CircleLoadingView.swift in Sources */,
+				35EC58691D594F4B00246544 /* EmergencyContactsViewController.swift in Sources */,
+				35EC58A31D59584100246544 /* AppDelegate.swift in Sources */,
+				35EC587C1D594F4B00246544 /* NeighborhoodRegion.swift in Sources */,
+				35EC588F1D594F4B00246544 /* SignUpViewController.swift in Sources */,
+				35EC58681D594F4B00246544 /* DeleteButton.swift in Sources */,
+				35EC58841D594F4B00246544 /* PostSignUpViewController.swift in Sources */,
+				35EC587B1D594F4B00246544 /* Neighborhood.swift in Sources */,
+				35EC58751D594F4B00246544 /* LoadingViewController.swift in Sources */,
+				35EC588C1D594F4B00246544 /* SendTextsViewController.swift in Sources */,
+				35EC58851D594F4B00246544 /* ProfileImage.swift in Sources */,
+				35EC587E1D594F4B00246544 /* NeighborsFacesCell.swift in Sources */,
+				35EC58731D594F4B00246544 /* ListCell.swift in Sources */,
+				35EC58741D594F4B00246544 /* ListOfMedicsViewController.swift in Sources */,
+				35EC58641D594F4B00246544 /* AppPolicyViewController.swift in Sources */,
+				35EC58671D594F4B00246544 /* ContactInfo.swift in Sources */,
+				35EC58901D594F4B00246544 /* UIButton+CustomView.swift in Sources */,
+				35EC586F1D594F4B00246544 /* House.swift in Sources */,
+				35EC58771D594F4B00246544 /* MedicalBadgeCell.swift in Sources */,
+				35EC588B1D594F4B00246544 /* SelectListViewController.swift in Sources */,
+				35EC588A1D594F4B00246544 /* SearchNeighborsViewController.swift in Sources */,
+				35EC588E1D594F4B00246544 /* SharedFunctions.swift in Sources */,
+				35EC586A1D594F4B00246544 /* EmergencyInfo.swift in Sources */,
+				35EC58791D594F4B00246544 /* MenuViewController.swift in Sources */,
+				35EC58801D594F4B00246544 /* NetworkConnectionError.swift in Sources */,
+				35EC58931D594F4B00246544 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +741,10 @@
 		};
 		356BCBA91D571942007CBF2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268DB200B1238D6938D7DDA8 /* Pods-Omni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Omni/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Omni/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omni.Omni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,9 +753,10 @@
 		};
 		356BCBAA1D571942007CBF2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9750A2A2CB7CB547865047 /* Pods-Omni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Omni/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Omni/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omni.Omni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +828,7 @@
 				356BCBAA1D571942007CBF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356BCBAB1D571942007CBF2A /* Build configuration list for PBXNativeTarget "OmniTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +837,7 @@
 				356BCBAD1D571942007CBF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356BCBAE1D571942007CBF2A /* Build configuration list for PBXNativeTarget "OmniUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +846,7 @@
 				356BCBB01D571942007CBF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
